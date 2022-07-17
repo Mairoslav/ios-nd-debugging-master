@@ -15,7 +15,7 @@ class VisualBugViewController: UIViewController {
     // MARK: Properties
     
     let bugFactory = BugFactory.sharedInstance()
-    let maxBugs = 100
+    let maxBugs = 50
     let moveDuration = 3.0
     let disperseDuration = 1.0
     var bugs = [UIImageView]()
